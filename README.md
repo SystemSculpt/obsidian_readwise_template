@@ -22,6 +22,8 @@ Highlights header:
 ```
 # Highlights
 ```
+- I like to keep things simple and to-the-point. I want to understand the different sections that I am importing in, and (for now) it seems like Highlights are the only thing that can be synced through Obsidian from Readwise, but I'm hoping that will change sometime soon if, for example, I want to import the entire article/tweet AS WELL as the highlights. That would be a killer feature to add.
+
 
 Highlight:
 ```
@@ -30,6 +32,8 @@ Highlight:
 {{ highlight_note }}
 {% endif %}
 ```
+- This is how I'm setting up my specific highlights - I use callouts to make them look nice instead of just boring text, and it's easy to create these extendable/clickable windows all natively within Obsidian so that I can easily see the main idea of the tweet and expand it if I want to read up more.
+- [More details about callouts and how they work here.](https://help.obsidian.md/Editing+and+formatting/Callouts)
 
 YAML front matter:
 ```
@@ -47,3 +51,27 @@ Sync notification:
 {% for book in books %}    - {{ book.num_highlights_added}} highlights from {{ book.title }}
 {% endfor %}
 ```
+
+## Support
+
+- Your support helps me, Mike, dedicate more time to creating and refining.
+
+<p>
+  <a href="https://www.patreon.com/SystemSculpt">
+    <img
+      align="left"
+      src="https://indigenousx.com.au/wp-content/uploads/2017/03/patreon-medium-button.png"
+      height="50"
+      width="210"
+      alt="Support on Patreon"
+  /></a>
+  <a href="https://www.buymeacoffee.com/SystemSculpt">
+    <img
+      align="left"
+      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+      height="50"
+      width="210"
+      alt="Buy Me A Coffee"
+  /></a>
+</p>
+<br /><br />
